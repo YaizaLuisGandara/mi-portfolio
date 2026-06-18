@@ -6,7 +6,7 @@ import SectionWrapper from "../components/SectionWrapper";
 export default function Home() {
   return (
     <main className="min-h-screen bg-gradient-to-br from-pink-50 to-rose-100 p-6 md:p-20">
-      {/* Fondo decorativo */}
+      {/* Fondo */}
       <div className="fixed inset-0 overflow-hidden -z-10">
         <div className="absolute -top-[10%] -left-[10%] w-[500px] h-[500px] bg-pink-200 rounded-full mix-blend-multiply filter blur-[128px] opacity-30 animate-pulse"></div>
       </div>
@@ -39,15 +39,15 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-6">
             <div className="bg-white/50 p-6 rounded-2xl border border-white/50">
               <h3 className="font-bold text-pink-600 mb-4">Frontend</h3>
-              <div className="flex flex-wrap gap-2">{["React Native", "TypeScript", "JavaScript", "HTML", "CSS"].map(t => <span key={t} className="px-3 py-1 bg-white rounded-full text-sm text-gray-700">{t}</span>)}</div>
+              <div className="flex flex-wrap gap-2">{["React Native", "TypeScript", "JavaScript", "HTML", "CSS",].map(t => <span key={t} className="px-3 py-1 bg-white rounded-full text-sm text-gray-700">{t}</span>)}</div>
             </div>
             <div className="bg-white/50 p-6 rounded-2xl border border-white/50">
               <h3 className="font-bold text-pink-600 mb-4">Backend</h3>
-              <div className="flex flex-wrap gap-2">{["ASP.NET (C#)", "Python", "SQL", "Supabase", "Odoo"].map(t => <span key={t} className="px-3 py-1 bg-white rounded-full text-sm text-gray-700">{t}</span>)}</div>
+              <div className="flex flex-wrap gap-2">{["ASP.NET (C#)", "Python", "SQL", "Supabase", "Odoo","MongoDB"].map(t => <span key={t} className="px-3 py-1 bg-white rounded-full text-sm text-gray-700">{t}</span>)}</div>
             </div>
             <div className="bg-white/50 p-6 rounded-2xl border border-white/50">
               <h3 className="font-bold text-pink-600 mb-4">Entornos</h3>
-              <div className="flex flex-wrap gap-2">{["VS Code", "Visual Studio", "Android Studio", "GCP", "Git"].map(t => <span key={t} className="px-3 py-1 bg-white rounded-full text-sm text-gray-700">{t}</span>)}</div>
+              <div className="flex flex-wrap gap-2">{["VS Code", "Visual Studio", "Android Studio", "GCP", "Git","Spring Boot","Docker"].map(t => <span key={t} className="px-3 py-1 bg-white rounded-full text-sm text-gray-700">{t}</span>)}</div>
             </div>
           </div>
         </SectionWrapper>
@@ -71,8 +71,8 @@ export default function Home() {
               <p className="text-sm text-gray-600">Diseño y desarrollo de una app a medida para digitalizar el cuaderno de campo tradicional. Identificación de necesidades, modelado de datos y optimización de procesos de decisión basados en datos.</p>
             </div>
             <div className="bg-white/50 p-6 rounded-xl">
-              <h3 className="font-bold">Desarrolladora Web en Prácticas | Empresa (México)</h3>
-              <p className="text-sm text-gray-600">Colaboración en ASP.NET (C#) y gestión técnica internacional.</p>
+              <h3 className="font-bold">Desarrolladora Web en Prácticas | Konexus ERP (México)</h3>
+              <p className="text-sm text-gray-600">Colaboración en ASP.NET (C#) y desarrollo de ERP propio de la empresa.</p>
             </div>
           </div>
         </SectionWrapper>
