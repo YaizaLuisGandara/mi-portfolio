@@ -19,7 +19,7 @@ export default function Home() {
         <p className="text-2xl text-gray-600 max-w-2xl mx-auto mb-10">Técnico Superior en Desarrollo de Aplicaciones Multiplataforma</p>
         <div className="flex gap-4 justify-center">
           <a href="mailto:yluisgandara@gmail.com" className="px-6 py-2 bg-pink-600 text-white rounded-lg hover:bg-gray-800 transition">Contacto</a>
-          <a href="/cv.pdf" className="px-6 py-2 border border-gray-300 rounded-lg hover:bg-gray-100 transition">Descargar CV</a>
+          <a href="/app/cv.pdf" className="px-6 py-2 border border-gray-300 rounded-lg hover:bg-gray-100 transition">Descargar CV</a>
         </div>
       </header>
 
